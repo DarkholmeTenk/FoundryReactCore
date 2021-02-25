@@ -2,7 +2,7 @@
   "name": "FoundryReactCore",
   "title": "FoundryReactCore",
   "description": "A module that provides some React functionality to FoundryVTT",
-  "version": "1.0.1",
+  "version": "1.0.1gi",
   "author": "shane_booth",
   "scripts": [
     "dev.js"
@@ -20,5 +20,5 @@
   "system": "dnd5e",
   "url": "https://github.com/DarkholmeTenk/FoundryReactCore",
   "manifest": "https://raw.githubusercontent.com/DarkholmeTenk/FoundryReactCore/main/module.json",
-  "download": "https://github.com/DarkholmeTenk/FoundryReactCore/archive/master.zip"
+  "download": "https://github.com/DarkholmeTenk/FoundryReactCore/archive/main.zip"
 }

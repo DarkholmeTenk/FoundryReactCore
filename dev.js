@@ -26,6 +26,7 @@ async function loadScript(url, id) {
         scriptTag.src = url
         scriptTag.crossOrigin = "true"
         scriptTag.id = id
+        scriptTag.async = false
         scriptTag.onload = ()=>resolve()
         document.head.appendChild(scriptTag)
     })
@@ -56,4 +57,4 @@ async function loadReact() {
     }
 }
 
-loadReact()
+Hooks.on("init", loadReact)

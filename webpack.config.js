@@ -35,9 +35,7 @@ module.exports = (env, argv) => {
         output: {
             path: path.resolve(__dirname, './dist'),
             filename: 'bundle.js',
-            library: 'FoundryReactCore',
-            libraryTarget: 'umd',
-            umdNamedDefine: true,
+            library: 'FoundryReactCore'
         },
         devServer: {
             contentBase: path.resolve(__dirname, './dist'),
@@ -48,6 +46,6 @@ module.exports = (env, argv) => {
             }
         },
         devtool: "source-map",
-        //externals: {"react": "React", "react-dom": "ReactDOM"}
+        externals: {"react": "React", "react-dom": "ReactDOM"}
     }
 };

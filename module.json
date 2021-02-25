@@ -1,8 +1,8 @@
 {
   "name": "FoundryReactCore",
   "title": "FoundryReactCore",
-  "description": "A module that provides some MorrowinDnD specific functionality",
-  "version": "1.1.5",
+  "description": "A module that provides some React functionality to FoundryVTT",
+  "version": "1.0.1",
   "author": "shane_booth",
   "scripts": [
     "dev.js"
@@ -15,13 +15,10 @@
     }
   ],
   "socket": false,
-  "minimumCoreVersion": "0.6.4",
-  "compatibleCoreVersion": "0.6.4",
+  "minimumCoreVersion": "0.7.8",
+  "compatibleCoreVersion": "0.7.8",
   "system": "dnd5e",
-  "styles": [
-    "./css/morrowindnd.css"
-  ],
-  "url": "https://github.com/DarkholmeTenk/foundry-morrowindnd",
-  "manifest": "https://raw.githubusercontent.com/DarkholmeTenk/foundry-morrowindnd/master/module.json",
-  "download": "https://github.com/DarkholmeTenk/foundry-morrowindnd/archive/master.zip"
+  "url": "https://github.com/DarkholmeTenk/FoundryReactCore",
+  "manifest": "https://raw.githubusercontent.com/DarkholmeTenk/FoundryReactCore/main/module.json",
+  "download": "https://github.com/DarkholmeTenk/FoundryReactCore/archive/master.zip"
 }

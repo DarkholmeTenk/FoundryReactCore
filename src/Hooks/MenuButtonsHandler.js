@@ -31,4 +31,4 @@ function registerMenuButtonsHandler(names) {
     })
 }
 
-registerMenuButtonsHandler(["itemSheet", "rollTableConfig", "actorSheet", "scene"])
+registerMenuButtonsHandler(["itemSheet", "rollTableConfig", "actorSheet", "scene", "journalSheet"])

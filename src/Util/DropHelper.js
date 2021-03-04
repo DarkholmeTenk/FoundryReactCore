@@ -20,6 +20,8 @@ async function loadThing(event) {
         log("Searching pack for id", data.pack, data.id)
         let pack = game.packs.get(data.pack)
         return await pack.getEntity(data.id)
+    } else if(data.actorId) {
+        return game.actors.get(data.actorId).items.get(data.data._id)
     } else {
         let type = map()[data.type]
         if(!type) {

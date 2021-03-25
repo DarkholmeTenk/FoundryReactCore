@@ -2,7 +2,7 @@ import React from "react"
 import DevSelector from "./dev/DevSelector";
 import "./Hooks"
 import "./Features"
-import {SimpleReactApplication} from "./Util/ReactApplication";
+import {SimpleReactApplication} from "./Util/ReactApplication.jsx";
 export * as Util from "./Util"
 
 function loadedStart() {

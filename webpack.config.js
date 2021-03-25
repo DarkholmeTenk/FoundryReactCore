@@ -6,7 +6,7 @@ module.exports = (env, argv) => {
         loader: 'babel-loader',
         options: {
             presets: [["@babel/preset-react", {"runtime": "automatic"}]],
-            plugins: ["@babel/plugin-proposal-export-default-from"]
+            plugins: ["@babel/plugin-proposal-export-default-from", "@babel/plugin-syntax-class-properties"]
         }
     }
     let loaders = [babelLoader]

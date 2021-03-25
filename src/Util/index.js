@@ -1,4 +1,4 @@
-export * as ReactApplication from "./ReactApplication"
+export * as ReactApplication from "./ReactApplication.jsx"
 
 export * as Util from "./Util"
 

@@ -21,7 +21,7 @@ export default class ReactApplication extends Application {
         return {id: this.appId};
     }
 
-    async _render(...args) {
+    async _render(force, ...args) {
         if(this.xrendered && !force) return
         this.xrendered = true
 

@@ -12,8 +12,7 @@ async function loadPack(packName, {failOnNoPack = true}) {
 				return [];
 			}
 		}
-		let index = await pack.getIndex();
-		packs[packName] = Promise.all(index.map((i)=>pack.getEntity(i._id)));
+		packs[packName] = pack.getContent()
 		return packs[packName]
 	}
 }

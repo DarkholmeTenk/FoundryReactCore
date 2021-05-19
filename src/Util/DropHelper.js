@@ -37,6 +37,8 @@ async function loadThing(event) {
 
 export function onDrop(callback) {
     return async (e)=>{
+        e.preventDefault()
+        e.stopPropagation()
         let object = await loadThing(e)
         if(object) {
             callback(object)
